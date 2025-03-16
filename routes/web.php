@@ -15,6 +15,7 @@ use App\Http\Controllers\Admin\MenuController;
 
 Route::view('/', 'catalog.index')->name('home');
 Route::view('/about-us', 'catalog.about-us');
+Route::view('/faqs', 'catalog.faqs');
 
 
 
