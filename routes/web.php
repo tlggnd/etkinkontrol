@@ -15,7 +15,14 @@ use App\Http\Controllers\Admin\MenuController;
 
 Route::view('/', 'catalog.index')->name('home');
 Route::view('/about-us', 'catalog.about-us');
-Route::view('/faqs', 'catalog.faqs');
+Route::view('/faqs', 'catalog.faqs')->name('faqs');
+Route::view('/iletisim', 'catalog.contact')->name('iletisim');
+Route::view('/galeri', 'catalog.gallery')->name('galeri');
+Route::view('/hizmetlerimiz', 'catalog.services')->name('hizmetlerimiz');
+Route::view('/hizmetdetay', 'catalog.service')->name('hizmetdetay');
+Route::view('/iletisim', 'catalog.contact-us')->name('iletisim');
+Route::view('/belgelerimiz', 'catalog.belgelerimiz')->name('belgelerimiz');
+Route::view('/sikayetveitiraz', 'catalog.sikayetveitiraz')->name('sikayetveitiraz');
 
 
 
